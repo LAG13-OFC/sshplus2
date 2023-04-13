@@ -11,9 +11,9 @@ cd $HOME
     rm $HOME/Plus >/dev/null 2>&1
     exit 0
 }
-_lnk=$(echo 'z1:y#x.5s0ul&p4hs$s.0a72d*n-e!v89e032:3r' | sed -e 's/[^a-z.]//ig' | rev)
-_Ink=$(echo '/3×u3#s87r/l32o4×c1a×l1/83×l24×i0b×' | sed -e 's/[^a-z/]//ig')
-_1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×' | sed -e 's/[^a-z/]//ig')
+#_lnk=$(echo 'z1:y#x.5s0ul&p4hs$s.0a72d*n-e!v89e032:3r' | sed -e 's/[^a-z.]//ig' | rev)
+#_Ink=$(echo '/3×u3#s87r/l32o4×c1a×l1/83×l24×i0b×' | sed -e 's/[^a-z/]//ig')
+#_1nk=$(echo '/3×u3#s×87r/83×l2×4×i0b×' | sed -e 's/[^a-z/]//ig')
 cd $HOME
 fun_bar() {
     comando[0]="$1"
@@ -80,7 +80,7 @@ echo "SCRIPT EM DESENVOLVIMENTO !!"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
 echo ""
 echo ""
-echo -e "                       \033[05;31mSISTEMAS \033[05;33mOPERACIONAIS\033[0m"
+echo -e "                       \033[05;31mSISTEMAS \033[05;33mOPERACIONALES\033[0m"
 echo ""
 echo -e "\033[1;31m• \033[1;33mUBUNTU 18 x64\033[0m 🐧"
 echo -e "\033[1;31m• \033[1;33mUBUNTU 20 x64\033[0m 🐧"
@@ -88,32 +88,32 @@ echo -e "\033[1;31m• \033[1;33mDEBIAN  9 x64\033[0m 🐧"
 echo -e "\033[1;31m• \033[1;33mDEBIAN 10 x64\033[0m 🐧"
 echo -e "\033[1;31m• \033[1;33mDEBIAN 11 x64\033[0m 🐧"
 echo -e "\033[1;31m \033[1;33m\033[0m"
-echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA UMA MELHOR EXPERIÊNCIA\033[0m"
-echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA (V2RAY) EVITEM OUTROS SISTEMAS\033[0m"
+echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA UNA MEJOR EXPERIENCIA\033[0m"
+echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA (V2RAY) EVITEN OTROS SISTEMAS\033[0m"
 echo -e "\033[1;31m \033[1;33m\033[0m"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
 #-----------------------------------------------------------------------------------------------------------------
-echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 2>&1
-    wget -P $_Ink https://www.dropbox.com/s/cs5poyigwm97dyd/listARM >/dev/null 2>&1
-    verif_key2
-    sleep 3s
+#echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 2>&1
+   # wget -P $_Ink https://www.dropbox.com/s/cs5poyigwm97dyd/listARM >/dev/null 2>&1
+  #  verif_key2
+    #sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Install/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/LAG13-OFC/sshplus2/master/Install/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/v2raymanager >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/botteste.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/LAG13-OFC/sshplus2/master/Modulos/v2raymanager >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/LAG13-OFC/sshplus2/master/Modulos/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
-    wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/ShellBot.sh >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/LAG13-OFC/sshplus2/master/Modulos/ShellBot.sh >/dev/null 2>&1
     chmod 777 ShellBot.sh >/dev/null 2>&1
     cd >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     mkdir /etc/rec >/dev/null 2>&1
     cd /etc/rec
-    wget https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/licence >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/LAG13-OFC/sshplus2/master/Modulos/licence >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     cd >/dev/null 2>&1
     #-----------------------------------------------------------------------------------------------------------------
@@ -122,21 +122,21 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     echo ""
     [[ -f "$HOME/usuarios.db" ]] && {
         clear
-        figlet "SCOTT-PRO" | lolcat
-        echo "SCRIPT EM DESENVOLVIMENTO !!" 
+        figlet "LAG13_OFC" | lolcat
+        echo "SCRIPT EN DESENVOLVIMIENTO !!" 
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
-        echo -e "\033[1;33mOPA DETECTAMOS..."
+        echo -e "\033[1;33mEPA ENCONTAMOS..."
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
-        echo -e "\033[1;33mDADOS DE USUÁRIOS ENCONTRADO!"
+        echo -e "\033[1;33mDATOS DE USUÁRIOS ENCONTRADO!"
         echo ""
         echo -e "\033[1;33m🗣️ LOGIN"
-        echo -e "\033[1;33m🔑 SENHAS"
+        echo -e "\033[1;33m🔑 CONTRAENHA"
         echo -e "\033[1;33m📲 LIMITE"
         echo -e "\033[1;33m⌛ DIAS"
         echo -e ""
         echo -e "\033[1;33mLOCALIZADO NA PASTA \033[1;32m(usuarios.db)"
-        echo -e "\n\033[1;37m[\033[1;31m1\033[1;37m] \033[1;33mMANTER DADOS ATUAL\033[0m"
-        echo -e "\033[1;37m[\033[1;31m2\033[1;37m] \033[1;33mCRIAR UMA NOVA BASE DE DADOS\033[0m"
+        echo -e "\n\033[1;37m[\033[1;31m1\033[1;37m] \033[1;33mMANTENER DATOS ACTUAL\033[0m"
+        echo -e "\033[1;37m[\033[1;31m2\033[1;37m] \033[1;33mCREAR UNA NUEVA BASE DE DATOS\033[0m"
         echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━\033[0m"
         echo ""
         tput setaf 2
@@ -151,13 +151,13 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     tput setaf 7
     tput setab 4
     tput bold
-    printf '%35s%s%-18s\n' " AGUARDE A INSTALAÇÃO"
+    printf '%35s%s%-18s\n' " ESPERE LA INSTALACION"
     tput sgr0
     echo ""
     echo ""
-    echo -e "          \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mATUALIZANDO SISTEMA \033[1;33m[\033[1;31m!\033[1;33m]\033[0m"
+    echo -e "          \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mACTUALIZANDO SISTEMA \033[1;33m[\033[1;31m!\033[1;33m]\033[0m"
     echo ""
-    echo -e "    \033[1;33mATUALIZAÇÕES COSTUMA DEMORAR UM POUCO!\033[0m"
+    echo -e "    \033[1;33mLAS ACTUALIZACIONES SUELEN TARDARSE UN POCO!\033[0m"
     echo ""
     fun_attlist() {
         apt-get update -y
@@ -188,14 +188,14 @@ echo -e "\n\033[1;36mVERIFICANDO LINK... \033[0m" ; rm $_Ink/listARM >/dev/null 
     echo ""
     echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mFINALIZANDO \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
     echo ""
-    echo -e "      \033[1;33mOTIMIZANDO PYTHON \033[0m"
+    echo -e "      \033[1;33mOPTIMIZANDO PYTHON \033[0m"
     echo ""
     fun_bar 'otimize_python'
     clear
     echo ""
     echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mFINALIZANDO \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
     echo ""
-    echo -e "      \033[1;33mCONCLUINDO FUNÇÕES E DEFINIÇÕES! \033[0m"
+    echo -e "      \033[1;33mTERMINANDO FUNCIONES Y DEFINICIONES! \033[0m"
     echo ""
     fun_bar "$_Ink/listARM $_lnk $_Ink $_1nk $key"
     rm /bin/chuser > /dev/null 2>&1
@@ -217,24 +217,24 @@ chmod 777 checkuser.py > /dev/null 2>&1
     clear
     echo ""
     cd $HOME
-    echo -e "        \033[1;33m • \033[1;32mINSTALACAO CONCLUIDA\033[1;33m • \033[0m"
+    echo -e "        \033[1;33m • \033[1;32mINSTALACION TERMINADA\033[1;33m • \033[0m"
     echo ""
     cd $HOME
     echo "clear" >>/root/.bashrc
     echo 'DATE=$(date +"%d-%m-%y")' >>/root/.bashrc
     echo 'TIME=$(date +"%T")' >>/root/.bashrc
-    echo 'figlet -k SCOTT-PRO | lolcat' >>/root/.bashrc
-    echo 'echo -e " NOME DO SERVIDOR : $HOSTNAME"' >>/root/.bashrc
-    echo 'echo -e " SERVIDOR LIGADO À : $(uptime -p)"' >>/root/.bashrc
-    echo 'echo -e " DATA : $DATE"' >>/root/.bashrc
+    echo 'figlet -k LAG13_OFC | lolcat' >>/root/.bashrc
+    echo 'echo -e " NOMBRE DEL SERVIDOR : $HOSTNAME"' >>/root/.bashrc
+    echo 'echo -e " SERVIDOR ENCENDIDO A : $(uptime -p)"' >>/root/.bashrc
+    echo 'echo -e " FECHA : $DATE"' >>/root/.bashrc
     echo 'echo -e " HORA : $TIME"' >>/root/.bashrc
-    echo 'echo -e "@scottssh"' >>.bashrc
-    echo 'echo -e "\033[1;31m DIGITE ( menu ) PARA ENTRAR\033[0m."' >>/root/.bashrc
+    echo 'echo -e "@LAG13_OFC"' >>.bashrc
+    echo 'echo -e "\033[1;31m ESCRIBA ( menu ) PARA ENTRAR\033[0m."' >>/root/.bashrc
     echo 'echo -e ""' >>/root/.bashrc
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
     figlet "SCOTT-PR0" | lolcat
     echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACAO CONCLUIDA               \033[1;33m \033[0m\033[01;31m║"
-    echo -e "\033[01;31m║\033[1;33mPARA INICIAR DIGITE: \033[1;32mmenu\033[0m"
-    echo -e "\033[01;31m║\033[1;33m MAIS INFORMACOES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@scottssh\033[0m"
+    echo -e "\033[01;31m║\033[1;33mPARA INICIAR ECRIBA: \033[1;32mmenu\033[0m"
+    echo -e "\033[01;31m║\033[1;33m MAS INFORMACIONES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@scottssh\033[0m"
     rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
